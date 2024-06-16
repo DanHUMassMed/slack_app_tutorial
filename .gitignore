@@ -1,0 +1,26 @@
+#Ignore env containing secrets
+.env
+.venv
+.envrc
+
+#Ignore Virtual Env
+env/
+venv/
+.venv/
+
+# Other Environments
+ENV/
+env.bak/
+venv.bak/
+
+#Ignore generated outputs
+outputs/
+
+#Ignore my local docs
+my-docs/
+
+#Ignore pycache
+**/__pycache__/
+
+.DS_Store
+*.log
